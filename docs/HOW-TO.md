@@ -42,7 +42,7 @@ repadmin /showrepl %COMPUTERNAME% | findstr /i "success failed"
 
 ## Optional: SYSVOL + GPO startup
 
-1. Copy `Repair-DCLink.ps1` and `Repair-DCLink-Startup.cmd` to `\\\\<domain>\\SYSVOL\\<domain>\\scripts\\`.
+1. Copy `Repair-DCLink.ps1` and `Repair-DCLink-Startup.cmd` to `\\<domain>\SYSVOL\<domain>\scripts\`.
 2. Link a GPO to **OU=Domain Controllers** with a computer startup script pointing at `Repair-DCLink-Startup.cmd`.
 3. The script no-ops on the master (`skipped-primary`).
 
