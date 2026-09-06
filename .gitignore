@@ -1,0 +1,5 @@
+*.log
+*.status.txt
+.DS_Store
+Thumbs.db
+*.old
