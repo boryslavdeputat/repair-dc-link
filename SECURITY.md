@@ -7,7 +7,7 @@ This toolkit is meant to run **locally on a domain controller** as SYSTEM or Dom
 - Domain names, hostnames, IP addresses, VLAN IDs
 - Usernames, passwords, hashes, Kerberos tickets
 - `repadmin /showrepl` dumps, `dcdiag` full output, `nltest` with real DC names
-- Event log exports, `C:\\Logs\\Repair-DCLink.log` from a production forest
+- Event log exports, `C:\Logs\Repair-DCLink.log` from a production forest
 
 Redact first. Placeholder names (`contoso.com`, `DC1`, `DC2`) are enough to debug.
 
